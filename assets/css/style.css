@@ -1,0 +1,438 @@
+body {
+    font-family: 'Montserrat';
+    background: #F8F8F8;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1340px;
+    }
+}
+
+/* NAVIGASI */
+
+.navbar {
+    padding-top: 20px;
+    background: #29291E;
+}
+
+.navbar .navbar-collapse ul li a {
+    font-size: 16px;
+    color: #FFFFFF !important;
+}
+
+.navbar .navbar-collapse ul li {
+    margin-right: 20px;
+}
+
+.navbar .login {
+    background: #2DCE89;
+    padding: 15px 19px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+/* JUMBOTRON */
+
+.headline {
+    padding: 62px 0 105px 0;
+    border-radius: none !important;
+    background: #29291E;
+}
+
+.headline h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+/* SEARCH */
+
+.search .row {
+    margin-top: -35px;
+}
+
+.search .search-wrapper,
+.search .dropdown-wrapper {
+    padding: 13px 25px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, .25);
+    height: 100%;
+}
+
+.search .dropdown-wrapper .custom-select {
+    border: none;
+}
+
+.search::placeholder,
+.dropdown-wrapper .custom-select option {
+    color: #595959;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.search input {
+    border: none !important;
+    width: 100%;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+textarea:focus,
+.custom-select:focus {
+    outline: none;
+}
+
+.search button {
+    padding: 20px 52px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    background: #17E88E;
+    border: solid 1px #17E88E;
+}
+
+/* EXPERIMENT */
+.experiment {
+    padding: 105px 0 125px 0;
+}
+
+.resc {
+    padding: 0 0 125px 0;
+}
+
+/* .experiment .container {
+    position: relative;
+} */
+
+.experiment hr,
+.high hr {
+    width: 108px;
+    height: 5px;
+    background: #2DCE89;
+}
+
+.experiment h1 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #29291E;
+}
+
+.experiment .card-body h5 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #29291E;
+}
+
+.experiment .card-body h6 {
+    color: #039154;
+    background: rgba(45, 206, 137, 0.43);
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+.experiment .card-body .third {
+    color: #EF6C66;
+    background: rgba(239, 108, 102, 0.5);
+}
+
+.experiment .card-body .name {
+    color: #29291E;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.experiment .card-body .desc {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: justify;
+    color: #29291E;
+}
+
+.experiment .card-body {
+    padding: 31px 20px;
+}
+
+.experiment .card {
+    border: none;
+}
+
+.experiment .card-body button {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 13px;
+    background: #2DCE89;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+}
+
+.experiment .btn-prev,
+.experiment .btn-next {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 2000px;
+    width: 63px;
+    height: 63px;
+    background: #FFFFFF;
+    border: solid 1px #CBCBCB;
+}
+
+.experiment .btn-next {
+    background: #EF6C66 !important;
+    box-shadow: 0px 0px 30px rgba(244, 64, 56, 0.89) !important;
+    border: none !important;
+}
+
+/* HIGH */
+
+.high {
+    background: #29291E;
+    padding: 60px 20px 68px 20px;
+}
+
+.high h1 {
+    color: #fff !important;
+}
+
+.high .content p,
+.high h6,
+.high button {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.high .seemore {
+    color: #fff;
+}
+
+.high .date {
+    margin-top: -10px !important;
+}
+
+
+.high h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.high h6 {
+    font-weight: 600 !important;
+    margin: 0;
+}
+
+.high button {
+    padding: 13px 89px;
+    border: none;
+    background: #2DCE89;
+    border-radius: 4px;
+    font-weight: 500 !important;
+}
+
+.lala {
+    padding: 0 0 50px 0;
+    border-bottom: solid 0.2px #fff;
+}
+
+/* JOIN */
+
+.join {
+    position: relative;
+    z-index: 999;
+    margin-top: 150px;
+    padding: 61px 111px 61px 111px;
+    background: #EF6C66;
+    border-radius: 30px;
+}
+
+.join h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.join p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.join button {
+    padding: 13px 0;
+    width: 100%;
+    border-radius: 4px;
+    color: #EF6C66;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    background: #fff;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: -60px;
+    /* position: relative;
+    left: 30px;
+    width: 97.9%; */
+    border: solid 2px #000;
+    padding: 108px 0 0 25px;
+}
+
+footer h5 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+footer p,
+footer ul li a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #29291E;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 600px) {
+    .experiment .card {
+        width: 350px;
+    }
+
+    .experiment .card-wrapper {
+        justify-content: center;
+        display: flex;
+    }
+
+    .experiment .pagination {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .high .lala,
+    .high .lele {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .join {
+        padding: 61px 55px 61px 55px;
+    }
+
+
+    .join h2 {
+        font-size: 25px;
+    }
+
+    .join p {
+        font-size: 16px;
+        ;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .headline h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+
+    .high h1 {
+        font-size: 30px;
+    }
+
+    .high .seemore {
+        font-size: 13px;
+    }
+
+    .high h5 {
+        font-size: 20px;
+    }
+
+    .high .content p,
+    .high h6,
+    .high button {
+        font-size: 13px;
+    }
+
+    .experiment h1 {
+        font-size: 30px;
+    }
+
+    .join {
+        background: #EF6C66;
+    }
+
+
+    .join h2 {
+        font-size: 25px;
+    }
+
+    .join p {
+        font-size: 16px;
+        ;
+    }
+
+
+}
+
+
+
+/* HOVER */
+
+.btn-next,
+.btn-prev:hover {
+    cursor: pointer;
+}
+
+.search button:hover {
+    background: #19A96B;
+    border: none;
+    cursor: pointer;
+}
+
+.experiment button:hover {
+    background: #19A96B;
+    border: none;
+    cursor: pointer;
+}
+
+.high button:hover {
+    background: #19A96B;
+    border: none;
+    cursor: pointer;
+}
+
+.join button:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
